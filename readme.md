@@ -8,7 +8,7 @@ This problem was one I've worked on before. I solved it using the **modulus** op
 1. When the *if* is true it gets pushed into a new array
 1. The new array is *return*ed
 
-'<function sortEven( arr ) {
+`<function sortEven( arr ) {
     var evenNumbers= [];
     for (var i = 0; i < arr.length; i++) {
         if(arr[i] % 2 === 0) {
@@ -17,6 +17,6 @@ This problem was one I've worked on before. I solved it using the **modulus** op
         } 
     }
     return evenNumbers;
-}>'
+}>`
 
 #### Capitalize The First Letter Of Each Word
